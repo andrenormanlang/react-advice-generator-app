@@ -5,7 +5,7 @@ import dice from "./images/icon-dice.svg"
 
 
 function App() {
-  const [text, setText] = useState({ slip: {id: "", advice: "" } })
+  const [text, setText] = useState([])
 
   const fetchAdvice = async () => {
     const res = await fetch("https://api.adviceslip.com/advice")
@@ -13,7 +13,7 @@ function App() {
 
     console.log(data);
 
-    setText(data)
+    setText(data.slip)
   }
 
   useEffect(() =>{
@@ -23,8 +23,8 @@ function App() {
 
   return (
     <div className="container">
-     <h1>Advice #{text.slip.id}</h1>
-     <p>{text.slip.advice}</p>
+     <h1>Advice #{text.id}</h1>
+     <p>{text.advice}</p>
      <picture>
       <source media="(min-width:768px)" srcSet={pauseDesktop}/>
       <img src={pauseMobile} alt=""/>
