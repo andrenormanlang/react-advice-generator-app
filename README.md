@@ -12,9 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
-
+- Solution URL: <https://github.com/andrenormanlang/react-advice-generator-app/tree/main/src>
+- Live Site URL: <https://my-react-advice-generator-app.netlify.app/>
 
 ### Built with
 
