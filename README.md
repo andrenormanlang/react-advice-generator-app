@@ -10,7 +10,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
+### Links
 
+- Solution URL: <https://github.com/andrenormanlang/react-advice-generator-app/tree/main/src>
+- Live Site URL: <https://advice-generator-with-api.netlify.app//>
 
 ### Built with
 
